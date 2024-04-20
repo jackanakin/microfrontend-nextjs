@@ -1,7 +1,6 @@
 {
-  "name": "@acme/design-system",
+  "name": "@mfe/shared",
   "version": "0.0.1",
-  "repository": "https://github.com/vercel/examples.git",
   "license": "MIT",
   "scripts": {
     "dev": "pnpm build:swc -w",

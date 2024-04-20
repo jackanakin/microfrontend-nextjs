@@ -1,6 +1,6 @@
 import { Layout, Page, Text, Code, Link } from '@vercel/examples-ui'
 import Navbar from '@acme/pages/components/navbar'
-import { Button } from '@acme/design-system'
+import { Button } from '@mfe/shared'
 import axios, { HttpStatusCode } from 'axios'
 import { useEffect, useState } from 'react'
 

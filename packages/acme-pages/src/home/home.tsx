@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Layout, Page, Text, Code, Link, Snippet } from '@vercel/examples-ui'
-import { Button, Quote } from '@acme/design-system'
+import { Button, Quote } from '@mfe/shared'
 import { matchingTextColor, randomColor } from '@acme/utils'
 import Navbar from '../components/navbar'
 
