@@ -3,12 +3,23 @@ import Navbar from '@acme/pages/components/navbar'
 import { Button } from '@mfe/shared'
 import axios, { HttpStatusCode } from 'axios'
 import { useEffect, useState } from 'react'
+import { matchingTextColor, randomColor } from '@mfe/shared/utils/colors'
 
 type User = {
   name: string
 }
 export default function Index() {
   const [user, setUser] = useState<User>()
+  const [bgColor, setBgColor] = useState('')
+  const [textColor, setTextColor] = useState('')
+
+  const changeColor = () => {
+    const bg = randomColor()
+    setBgColor(bg)
+    setTextColor(matchingTextColor(bg))
+  }
+
+  useEffect(changeColor, [])
 
   const login = async () => {
     const res = await axios.post(
@@ -64,6 +75,18 @@ export default function Index() {
           </Button>
         </>
       )}
+
+      <Button
+        className="mb-4"
+        style={{
+          backgroundColor: bgColor,
+          color: textColor,
+          borderColor: textColor,
+        }}
+        onClick={changeColor}
+      >
+        Change Color
+      </Button>
     </Page>
   )
 }

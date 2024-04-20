@@ -26,9 +26,6 @@ importers:
       '@acme/pages':
         specifier: workspace:*
         version: link:../../packages/acme-pages
-      '@acme/utils':
-        specifier: workspace:*
-        version: link:../../packages/acme-utils
       '@mfe/shared':
         specifier: workspace:*
         version: link:../../packages/shared
@@ -75,9 +72,6 @@ importers:
       '@acme/pages':
         specifier: workspace:*
         version: link:../../packages/acme-pages
-      '@acme/utils':
-        specifier: workspace:*
-        version: link:../../packages/acme-utils
       '@mfe/shared':
         specifier: workspace:*
         version: link:../../packages/shared
@@ -121,9 +115,6 @@ importers:
 
   packages/acme-pages:
     dependencies:
-      '@acme/utils':
-        specifier: workspace:*
-        version: link:../acme-utils
       '@mfe/shared':
         specifier: workspace:*
         version: link:../shared

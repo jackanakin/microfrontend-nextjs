@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Layout, Page, Text, Code, Link, Snippet } from '@vercel/examples-ui'
 import { Button, Quote } from '@mfe/shared'
-import { matchingTextColor, randomColor } from '@acme/utils'
+import { matchingTextColor, randomColor } from '@mfe/shared/utils/colors'
 import Navbar from '../components/navbar'
 
 export default function Home(): React.ReactNode {
@@ -44,9 +44,6 @@ export default function Home(): React.ReactNode {
           <Button className="mb-4">This is a button</Button>
         </>
       )}
-      <Quote className="mb-4">
-        This is the <Code>Quote</Code> component in the design system.
-      </Quote>
       <Text variant="h2" className="mt-10 mb-6">
         packages/acme-pages
       </Text>
