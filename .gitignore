@@ -37,6 +37,3 @@ yarn-error.log*
 
 # Turborepo
 .turbo
-
-# Storybook
-storybook-static
