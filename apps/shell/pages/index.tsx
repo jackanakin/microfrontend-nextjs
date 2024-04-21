@@ -87,7 +87,7 @@ export default function Index() {
         }}
         onClick={changeColor}
       >
-        Change Color
+        Change Color!
       </Button>
     </Page>
   )
