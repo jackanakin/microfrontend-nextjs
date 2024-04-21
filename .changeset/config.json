@@ -7,5 +7,5 @@
   "access": "restricted",
   "baseBranch": "shell",
   "updateInternalDependencies": "patch",
-  "ignore": ["docs", "shell"]
+  "ignore": ["remote1", "shell"]
 }

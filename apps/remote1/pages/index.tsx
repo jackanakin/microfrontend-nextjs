@@ -4,8 +4,8 @@ import { Layout, Page, Text, Code, Link } from '@vercel/examples-ui'
 export default function Index() {
   return (
     <Page>
-      <Navbar isDocsApp />
-      <Text className="mb-4">DOCS/PAGES/INDEX</Text>
+      <Navbar isRemote />
+      <Text className="mb-4">REMOTE1/PAGES/INDEX</Text>
     </Page>
   )
 }

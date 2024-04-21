@@ -1,4 +1,4 @@
-const { DOCS_URL } = process.env
+const { REMOTE1_URL } = process.env
 
 module.exports = {
   async rewrites() {
@@ -7,12 +7,12 @@ module.exports = {
        * Rewrites for Multi Zones
        */
       {
-        source: '/docs',
-        destination: `${DOCS_URL}/docs`,
+        source: '/remote1',
+        destination: `${REMOTE1_URL}/remote1`,
       },
       {
-        source: '/docs/:path*',
-        destination: `${DOCS_URL}/docs/:path*`,
+        source: '/remote1/:path*',
+        destination: `${REMOTE1_URL}/remote1/:path*`,
       },
     ]
   },

@@ -30,9 +30,9 @@ export default function About() {
 
   return (
     <Page>
-      <Navbar isDocsApp />
+      <Navbar isRemote />
       <Text className="mb-4">
-        DOCS/PAGES/ABOUT
+        REMOTE1/PAGES/ABOUT
       </Text>
       <Text variant="h1" className="mb-6">
         other project {user?.name ?? ''}

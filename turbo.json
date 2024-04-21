@@ -10,7 +10,7 @@
       ]
     },
     "shell#build": {
-      "dependsOn": ["^build", "$DOCS_URL"],
+      "dependsOn": ["^build", "$REMOTE1_URL"],
       "outputs": [".next/**", "!.next/cache/**"]
     },
     "test": {
@@ -21,7 +21,7 @@
       "outputs": []
     },
     "dev": {
-      "cache": false
+      "cache": true
     },
     "start": {
       "cache": false

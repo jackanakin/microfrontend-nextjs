@@ -1,16 +1,16 @@
 import type { FC } from 'react'
 
-const Navbar: FC<{ isDocsApp?: boolean }> = ({ isDocsApp }) =>
-  isDocsApp ? (
+const Navbar: FC<{ isRemote?: boolean }> = ({ isRemote }) =>
+  isRemote ? (
     <>
-      <span>THIS IS DOCS</span>
+      <span>THIS IS REMOTE1</span>
       <div></div>
       <ul className="inline-flex mb-4">
         <li>
-          <a href="/docs">INDEX</a>
+          <a href="/remote1">INDEX</a>
         </li>
         <li className="ml-4">
-          <a href="/docs/about">DOCS ABOUT</a>
+          <a href="/remote1/about">REMOTE1 ABOUT</a>
         </li>
         <li className="ml-4">
           <a href="/">SHELL INDEX</a>
@@ -29,7 +29,7 @@ const Navbar: FC<{ isDocsApp?: boolean }> = ({ isDocsApp }) =>
           <a href="/about">SHELL ABOUT</a>
         </li>
         <li className="ml-4">
-          <a href="/docs">DOCS INDEX</a>
+          <a href="/remote1">REMOTE1 INDEX</a>
         </li>
       </ul>
     </>
