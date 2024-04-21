@@ -3,9 +3,19 @@
 Microfrontends allow teams to work independently of each other by splitting the application into smaller, shareable, and modular components. The primary goal for a microfrontend strategy is to improve collaboration across teams of developers.
 
 ## Structure
-1. First list item
-   - First nested list item
-     - Second nested list item
+- repository
+   - api (sample api for login and cookie example)
+   - apps
+     - remote1 (microfrontend managed by Team 1)
+     - remoteN...
+     - shell (also main or host app, encapsulate all remote apps)
+  -  packages
+     - eslint-config-acme (eslint config)
+     - shared (components, interfaces, etc. used by multiple apps)
+       - components (UI elements)
+       - utils (utilities)
+       - contexts (context providers)
+       - ...
 
 ## Development Build
 It's still not perfect.
