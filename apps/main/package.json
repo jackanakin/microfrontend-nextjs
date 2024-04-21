@@ -1,6 +1,5 @@
 {
   "name": "main",
-  "repository": "https://github.com/vercel/examples.git",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -12,7 +11,6 @@
   },
   "dependencies": {
     "@mfe/shared": "workspace:*",
-    "@acme/pages": "workspace:*",
     "@vercel/examples-ui": "^1.0.4",
     "axios": "^1.6.8",
     "next": "latest",

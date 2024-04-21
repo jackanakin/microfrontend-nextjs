@@ -1,2 +1,4 @@
 export { default as Button } from './button'
-export { default as Quote } from './quote'
+export { default as Navbar } from './components/navbar'
+
+export { matchingTextColor, randomColor } from './utils/colors'

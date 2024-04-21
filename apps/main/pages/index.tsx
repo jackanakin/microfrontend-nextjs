@@ -1,9 +1,8 @@
 import { Layout, Page, Text, Code, Link } from '@vercel/examples-ui'
-import Navbar from '@acme/pages/components/navbar'
-import { Button } from '@mfe/shared'
+import { Button, matchingTextColor, Navbar, randomColor } from '@mfe/shared'
 import axios, { HttpStatusCode } from 'axios'
 import { useEffect, useState } from 'react'
-import { matchingTextColor, randomColor } from '@mfe/shared/utils/colors'
+// import { matchingTextColor, randomColor } from '@mfe/shared/utils/colors'
 
 type User = {
   name: string
@@ -56,7 +55,10 @@ export default function Index() {
 
   return (
     <Page>
-      <Navbar isDocsApp />
+      <Navbar />
+      <Text variant="h1" className="mb-6">
+        MAIN/PAGES/INDEX
+      </Text>
 
       {!user && (
         <>

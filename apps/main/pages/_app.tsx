@@ -3,7 +3,6 @@ import type { LayoutProps } from '@vercel/examples-ui/layout'
 import { getLayout } from '@vercel/examples-ui'
 import '@vercel/examples-ui/globals.css'
 import { useEffect } from 'react'
-// import { GlobalProvider } from '@acme/pages/context/GlobalProvider'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   const Layout = getLayout<LayoutProps>(Component)
@@ -13,7 +12,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   }, [])
 
   return (
-    <Layout title="Microfrontends" path="solutions/microfrontends">
+    <Layout title="MAIN" path="solutions/microfrontends">
       <Component {...pageProps} />
     </Layout>
   )

@@ -13,7 +13,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <Layout
-      title="DOCS APP"
+      title="DOCS"
       path="solutions/microfrontends"
       deployButton={{
         repositoryUrl:

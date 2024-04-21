@@ -1,5 +1,15 @@
-export { default } from '@acme/pages/about'
-// `getStaticProps` and other data fetching methods are not imported from the page
-// to make sure dead code elimination works. This way `getStaticProps` will only be
-// included in the server build
-export { getStaticProps } from '@acme/pages/about/data'
+import { Navbar } from '@mfe/shared'
+import { Layout, Page, Text, Code, Link } from '@vercel/examples-ui'
+
+export default function About(): React.ReactNode {
+  return (
+    <Page>
+      <Navbar />
+      <Text variant="h1" className="mb-6">
+        MAIN/PAGES/ABOUT
+      </Text>
+    </Page>
+  )
+}
+
+About.Layout = Layout

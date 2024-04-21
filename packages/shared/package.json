@@ -57,6 +57,7 @@
   },
   "dependencies": {
     "@swc/helpers": "^0.5.1",
+    "@vercel/examples-ui": "^1.0.4",
     "clsx": "^1.2.1"
   },
   "devDependencies": {
