@@ -13,20 +13,20 @@ const Navbar: FC<{ isDocsApp?: boolean }> = ({ isDocsApp }) =>
           <a href="/docs/about">DOCS ABOUT</a>
         </li>
         <li className="ml-4">
-          <a href="/">MAIN INDEX</a>
+          <a href="/">SHELL INDEX</a>
         </li>
       </ul>
     </>
   ) : (
     <>
-      <span>THIS IS MAIN</span>
+      <span>THIS IS SHELL</span>
       <div></div>
       <ul className="inline-flex mb-4">
         <li>
           <a href="/">INDEX</a>
         </li>
         <li className="ml-4">
-          <a href="/about">MAIN ABOUT</a>
+          <a href="/about">SHELL ABOUT</a>
         </li>
         <li className="ml-4">
           <a href="/docs">DOCS INDEX</a>

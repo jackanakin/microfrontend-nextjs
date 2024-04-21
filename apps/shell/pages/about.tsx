@@ -6,7 +6,7 @@ export default function About(): React.ReactNode {
     <Page>
       <Navbar />
       <Text variant="h1" className="mb-6">
-        MAIN/PAGES/ABOUT
+        SHELL/PAGES/ABOUT
       </Text>
     </Page>
   )

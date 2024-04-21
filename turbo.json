@@ -9,7 +9,7 @@
         "dist/**"
       ]
     },
-    "main#build": {
+    "shell#build": {
       "dependsOn": ["^build", "$DOCS_URL"],
       "outputs": [".next/**", "!.next/cache/**"]
     },

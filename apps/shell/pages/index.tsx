@@ -57,7 +57,7 @@ export default function Index() {
     <Page>
       <Navbar />
       <Text variant="h1" className="mb-6">
-        MAIN/PAGES/INDEX
+        SHELL/PAGES/INDEX
       </Text>
 
       {!user && (

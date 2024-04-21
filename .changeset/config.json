@@ -5,7 +5,7 @@
   "fixed": [],
   "linked": [],
   "access": "restricted",
-  "baseBranch": "main",
+  "baseBranch": "shell",
   "updateInternalDependencies": "patch",
-  "ignore": ["docs", "main"]
+  "ignore": ["docs", "shell"]
 }
