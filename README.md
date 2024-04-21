@@ -9,6 +9,8 @@ Microfrontends allow teams to work independently of each other by splitting the 
      - remote1 (microfrontend managed by Team 1)
      - remoteN...
      - shell (also main or host app, encapsulate all remote apps)
+        - .env (REMOTE1_URL)
+        - next.config.js (rewrite microfrontends source)
   -  packages
      - eslint-config-acme (eslint config)
      - shared (components, interfaces, etc. used by multiple apps)
