@@ -1,0 +1,27 @@
+{
+  "name": "shell",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clean": "rm -rf .next && rm -rf .turbo"
+  },
+  "dependencies": {
+    "@mfe/shared": "workspace:*",
+    "@vercel/examples-ui": "^1.0.4",
+    "axios": "^1.6.8",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "autoprefixer": "^10.4.12",
+    "eslint": "^8.11.0",
+    "eslint-config-acme": "workspace:*",
+    "typescript": "5.1.3"
+  }
+}

@@ -51,7 +51,6 @@ The example is a monorepo built with [Turborepo](https://turborepo.org/) with th
 - Everything is in [TypeScript](https://www.typescriptlang.org/)
 - Next.js is used for the applications in [./apps](./apps)
 - Shared packages used by the apps in [./packages](./packages)
-- [Tailwind CSS](https://tailwindcss.com) for utility CSS in React components and to build the design system
 - The ESLint config lives in [eslint-config-acme](./packages/eslint-config-acme)
 - [Changesets](https://github.com/changesets/changesets) to manage versioning and publishing of packages. Learn more in the [Versioning & Publishing Packages](#versioning--publishing-packages) section.
 
@@ -61,9 +60,7 @@ There are many strategies for designing microfrontends and your approach will be
 
 ### packages/shared/components
 
-[./packages/shared/components](./packages/shared/components) features multiple components with CSS Modules and [Tailwind](https://tailwindcss.com/). The components are installed in the app as a dependency and the compilation step is handled by [SWC](https://swc.rs/).
-
-All the CSS used by the app and components is unified by Tailwind, so having components outside the app doens't increase the CSS bundle size.
+[./packages/shared/components](./packages/shared/components) features multiple components with CSS Modules. The components are installed in the app as a dependency and the compilation step is handled by [SWC](https://swc.rs/).
 
 HMR and React Fast Refresh work as expected even though the components live outside the app and have a different build process.
 
