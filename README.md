@@ -1,4 +1,9 @@
-# Microfrontends with NextJS
+## [Simple Example of Microfrontend](https://github.com/jackanakin/microfrontends/tree/main/simple-sample)
+![Simple Microfrontend](https://github.com/jackanakin/microfrontends/blob/main/simple-sample.png)
+
+
+## [Multizone Microfrontends with NextJS](https://github.com/jackanakin/microfrontends/tree/main/nextjs-multizone)
+![Multizone Microfrontends with NextJS](https://github.com/jackanakin/microfrontends/blob/main/multizone-sample.png)
 
 Microfrontends allow teams to work independently of each other by splitting the application into smaller, shareable, and modular components. The primary goal for a microfrontend strategy is to improve collaboration across teams of developers.
 
